@@ -1,0 +1,17 @@
+{
+  "name": "flashparty-ai-generator",
+  "version": "1.0.0",
+  "description": "Nightly AI party generator using Claude, PartyLab (xAI/Grok), and FlashParty",
+  "main": "party-generator.js",
+  "scripts": {
+    "start": "node party-generator.js",
+    "test": "node party-generator.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
